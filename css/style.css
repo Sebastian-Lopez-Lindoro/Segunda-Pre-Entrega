@@ -6,7 +6,7 @@
 
 header {
   background-image: linear-gradient(35deg,black, blue, red, red, blue, black);
-  background-size: cover;
+  background-size: auto;
   margin-bottom: 1.5rem;
   position: sticky;
   top: 0;
@@ -113,7 +113,7 @@ h3 {
 }
 
 .merch__img {
-  margin-left: 3rem;
+  margin-left: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -213,22 +213,6 @@ iframe{
 .container5 {
   display: flex;
   justify-content: center;
-}
-
-.secreatlink {
-  position: fixed;
-  top: 0rem;
-  left: 4rem;
-  width: 13rem;
-  z-index: 2;
-}
-
-.newalbumpic {
-  position: fixed;
-  top: -5rem;
-  right: 1rem;
-  width: 20rem;
-  z-index: 2;
 }
 
 /* Aqui comienza GRID */
@@ -398,4 +382,79 @@ iframe{
 .imgall:hover {
   transition: 1000ms ease;
   transform: scale(1.50);
+}
+
+/* Aqui comienza ANIMACION y POSITION */
+
+.secretlink {
+  position: fixed;
+  top: 0rem;
+  left: 4rem;
+  width: 13rem;
+  z-index: 2;
+}
+
+.secret__link .secretlink {
+  animation: appear 3s ease;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateX(-30%);
+    opacity: 0;
+  }
+
+  50% {
+    rotate: 180deg;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.newalbumpic {
+  position: fixed;
+  top: -5rem;
+  right: 1rem;
+  width: 20rem;
+  z-index: 2;
+  animation: moving-album 3s ease;
+}
+
+@keyframes moving-album {
+  0% {
+    transform: translateY(0%) translateX(0%);
+    opacity: 0;
+  }
+
+  20% {
+    transform: translateY(-10%);
+    opacity: 0.2;
+  }
+
+  40% {
+    transform: translateX(-10%);
+    opacity: 0.4;
+  }
+
+  50% {
+    rotate: 30deg;
+  }
+
+  60% {
+    transform: translateX(10%);
+    opacity: 0.6;
+  }
+
+  80% {
+    transform: translateY(10%);
+    opacity: 0.8;
+  }
+ 
+  100% {
+    transform: translateY(0%) translateX(0%);
+    opacity: 1;
+  }
 }

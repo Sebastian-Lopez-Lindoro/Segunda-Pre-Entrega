@@ -6,7 +6,7 @@
 
 header {
   background-image: linear-gradient(35deg,black, blue, red, red, blue, black);
-  background-size: auto;
+  background-size: cover;
   margin-bottom: 1.5rem;
   position: sticky;
   top: 0;
@@ -16,11 +16,11 @@ header {
 body {
   font-family: 'PT Serif', serif;
   background-color: rgb(255, 255, 255);
+  max-width: 2200px;
 }
 
 footer {
   background-image: linear-gradient(35deg,black, blue, red, red, blue, black);
-  background-repeat: no-repeat;
   background-size: cover;
   margin-top: 2rem;
   padding: 2.0rem;
@@ -46,12 +46,13 @@ h2 {
   text-shadow: 2px 1px #030303;
   color: rgb(230, 9, 9);
   font-size: 40px;
+  font-weight: bold;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+
 }
 
 h3 {
-  text-align: center;
   text-shadow: 1px 1px #030303;
   color: rgb(230, 9, 9);
   font-size: 23px;
@@ -138,13 +139,13 @@ iframe{
 }
 
 .bio__img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15rem;
+  width: 10rem;
   margin-bottom: 2.5rem;
-  border-style: solid;
-  border-color: black;
+}
+
+.bio__text {
+  text-shadow: 1px 0px #030303;
+  color: rgb(230, 9, 9);
 }
 
 .photo__shop {

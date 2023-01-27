@@ -110,7 +110,7 @@ h3 {
 }
 
 .collab__icon {
-  width: 11rem;
+  width: 9rem;
 }
 
 .merch__img {
@@ -412,9 +412,9 @@ iframe{
 
 .newalbumpic {
   position: fixed;
-  top: -5rem;
+  top: -3.8rem;
   right: 1rem;
-  width: 20rem;
+  width: 16rem;
   z-index: 2;
   animation: moving-album 3s ease;
 }

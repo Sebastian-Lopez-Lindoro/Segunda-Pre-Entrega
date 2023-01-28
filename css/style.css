@@ -1,8 +1,12 @@
+/* RESET CSS y Box-Sizing ( indispensable ) */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Aqui comienza Sector Principal - Header, Body, Footer (aqui se aplica Gradients, Estilos de tipografia y Modelo de cajas */
 
 header {
   background-image: linear-gradient(35deg,black, blue, red, red, blue, black);
@@ -66,7 +70,9 @@ h3 {
   padding: 1.0rem;
 }
 
-.nav__list {
+/* Aqui estaba la vieja NAV bar con FLEX (se conserva aqui solo por propositos educativos */
+
+/*.nav__list {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -80,7 +86,9 @@ h3 {
 .nav__link {
   text-decoration: none;
   color: rgb(255, 255, 255);
-}
+}*/
+
+/* Aqui comienza Imgs e Iconos y copyrights ( hay aqui aplicadas transform y transition) */
 
 .socials__img {
   padding: 2rem;
@@ -131,13 +139,6 @@ h3 {
   width: 5rem;
 }
 
-.video {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-}
-
 iframe{
   border-radius: 10px;
 }
@@ -176,6 +177,8 @@ iframe{
   display: flex;
 }
 
+/* Aqui comienza FLEX para Form, Containers y Videos */
+
 .container1 {
   display: flex;
   justify-content: center;
@@ -210,9 +213,18 @@ iframe{
   flex-wrap: wrap;
 }
 
+/* Container4 Queda reservado para futura idea a implementar */
+
 .container5 {
   display: flex;
   justify-content: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 /* Aqui comienza GRID */
@@ -387,7 +399,7 @@ iframe{
 /* Aqui comienza ANIMACION / POSITION / MEDIA QUERIES */
 
 .secretlink {
-  position: fixed;
+  position: absolute;
   top: 1rem;
   left: 4rem;
   width: 13rem;
@@ -415,7 +427,7 @@ iframe{
 }
 
 .newalbumpic {
-  position: fixed;
+  position: absolute;
   top: -3.8rem;
   right: 1rem;
   width: 18rem;

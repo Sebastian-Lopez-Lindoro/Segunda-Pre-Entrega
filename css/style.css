@@ -8,7 +8,6 @@ header {
   background-image: linear-gradient(35deg,black, blue, red, red, blue, black);
   background-size: cover;
   margin-bottom: 1.5rem;
-  position: sticky;
   top: 0;
   z-index: 2;
 }
@@ -479,7 +478,7 @@ iframe{
   }
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
 .container__flex1 {
   display: flex;
 }
@@ -510,3 +509,16 @@ iframe{
   width: 10rem;
 }
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    min-width: 100vh;
+  }
+
+  header {
+    min-width: 100vh;
+  }
+}
+
+
+

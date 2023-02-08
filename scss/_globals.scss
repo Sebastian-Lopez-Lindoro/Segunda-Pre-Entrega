@@ -9,7 +9,7 @@
     /* Aqui comienza Sector Principal - Header, Body, Footer (aqui se aplica Gradients, Estilos de tipografia y Modelo de cajas */
   
     header {
-        background-image: linear-gradient(35deg,black, blue, red, red, blue, black);
+        background-image: $main-gradient;
         background-size: cover;
         margin-bottom: 1.5rem;
         top: 0;
@@ -18,12 +18,12 @@
       
       body {
         font-family: 'PT Serif', serif;
-        background-color: rgb(255, 255, 255);
+        background-color: $main-color;
         max-width: 2200px;
       }
       
       footer {
-        background-image: linear-gradient(35deg,black, blue, red, red, blue, black);
+        background-image: $main-gradient;
         background-size: cover;
         margin-top: 2rem;
         padding: 2.0rem;
@@ -31,28 +31,28 @@
       
       article {
         text-align: center;
-        color: red;
+        color: $secondary-color;
         padding: 3rem;
       }
       
       h1 {
         text-align: center;
-        text-shadow: 2px 2px #1437c1;
-        color: rgb(255, 255, 255);
+        text-shadow: $main-shadow;
+        color: $main-color;
         font-weight: bold;
         font-size: 70px;
         padding: 0.5rem;
       }
       
       .p__intro {
-        text-shadow: 1px 1px #1437c1;
-        color: rgb(255, 255, 255);
+        text-shadow: $secondary-shadow;
+        color: $main-color;
       }
       
       h2 {
         text-align: center;
-        text-shadow: 2px 1px #030303;
-        color: rgb(230, 9, 9);
+        text-shadow: $tertiary-shadow;
+        color: $secondary-color;
         font-size: 40px;
         font-weight: bold;
         margin-top: 2.5rem;
@@ -61,8 +61,8 @@
       }
       
       h3 {
-        text-shadow: 1px 1px #030303;
-        color: rgb(230, 9, 9);
+        text-shadow: $special-shadow;
+        color: $secondary-color;
         font-size: 23px;
         font-weight: bold;
         margin-top: 1.5rem;
@@ -74,28 +74,28 @@
   
   .socials__img {
     padding: 2rem;
+    
+    .social__icon {
+      width: 2.5rem;
+    }
+    
+    &:hover {
+      transition: 1000ms ease;
+      transform: scale(1.30);
+    }
   }
-  
-  .socials__img:hover {
-    transition: 1000ms ease;
-    transform: scale(1.30);
-  }
-  
-  .social__icon {
-    width: 2.5rem;
-  }
-  
+
   .music__img {
     padding: 2rem;
-  }
-  
-  .music__img:hover {
-    transition: 1000ms ease;
-    transform: scale(1.30);
-  }
-  
-  .music__icon {
-    width: 10rem;
+
+    .music__icon {
+      width: 10rem;
+    }
+
+    &:hover {
+      transition: 1000ms ease;
+      transform: scale(1.30);
+    }
   }
   
   .collab__img {
@@ -110,15 +110,15 @@
   .merch__img {
     padding: 2rem;
     margin-bottom: 1rem;
-  }
-  
-  .merch__img:hover {
-    transition: 1000ms ease;
-    transform: scale(1.30);
-  }
-  
-  .merch__icon {
-    width: 5rem;
+
+    .merch__icon {
+      width: 5rem;
+    }
+
+    &:hover {
+      transition: 1000ms ease;
+      transform: scale(1.30);
+    }
   }
   
   iframe{
@@ -131,8 +131,8 @@
   }
   
   .bio__text {
-    text-shadow: 1px 0px #030303;
-    color: rgb(230, 9, 9);
+    text-shadow: $text-shadow;
+    color: $secondary-color;
   }
   
   .photo__shop {
@@ -143,20 +143,25 @@
     margin-bottom: 1.5rem;
     border-radius: 20px;
     transition: transform 2000ms ease;
-  }
-  
-  .photo__shop:hover {
-    transform: scale(1.20);
+
+    &:hover {
+      transform: scale(1.20);
+    }
   }
   
   .copyrights {
     text-align: center;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: $main-color;
   }
-  
-  .shop__icons {
-    display: flex;
+
+  .imgall {
+    border-radius: 10px;
+    
+    &:hover {
+      transition: 1000ms ease;
+      transform: scale(1.50);
+    }
   }
   
   

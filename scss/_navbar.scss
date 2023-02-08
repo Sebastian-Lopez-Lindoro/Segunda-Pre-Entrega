@@ -1,0 +1,15 @@
+nav {
+    ul {
+        li {
+            .nav-link {
+                    color: $main-color;
+                    text-shadow: $text-shadow-nohover;
+                &:hover {
+                    color: $link-color;
+                    text-shadow: $text-shadow-hover;
+                }
+                
+            }
+        }
+    }
+}

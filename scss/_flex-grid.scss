@@ -1,0 +1,218 @@
+/* Aqui comienza FLEX para Form, Containers y Videos */
+  
+.container1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 3, 3);
+    width: 25rem;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    border-radius: 10px;
+    color: azure;
+  }
+  
+  .buttons {
+    padding: 0.2rem
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .container3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Container4 Queda reservado para futura idea a implementar */
+  
+  .container5 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  
+  /* Aqui comienza GRID */
+  
+  .container__flex1 {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .img__g1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img4" 
+  }
+  
+  .img1 {
+    grid-area: img1;
+    width: 9.3rem;
+  }
+  
+  .img2 {
+    grid-area: img2;
+    width: 9.3rem;
+  }
+  
+  .img3 {
+    grid-area: img3;
+    width: 9.3rem;
+  }
+  
+  .img4 {
+    grid-area: img4;
+    width: 9.3rem;
+  }
+  
+  .img__g2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    "img5 img6"
+    "img7 img8" 
+  }
+  
+  .img5 {
+    grid-area: img5;
+    width: 9.3rem;
+  }
+  
+  .img6 {
+    grid-area: img6;
+    width: 9.3rem;
+  }
+  
+  .img7 {
+    grid-area: img7;
+    width: 9.3rem;
+  }
+  
+  .img8 {
+    grid-area: img8;
+    width: 9.3rem;
+  }
+  
+  .img__g3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    "img9 img10"
+    "img11 img12" 
+  }
+  
+  .img9 {
+    grid-area: img9;
+    width: 9.3rem;
+  }
+  
+  .img10 {
+    grid-area: img10;
+    width: 9.3rem;
+  }
+  
+  .img11 {
+    grid-area: img11;
+    width: 9.3rem;
+  }
+  
+  .img12 {
+    grid-area: img12;
+    width: 9.3rem;
+  }
+  
+  .img__g4 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2.3rem;
+    grid-template-areas: 
+    "img13 img14 img15 img16 img17"
+    "img18 img19 img20 img21 img22" 
+  }
+  
+  .img13 {
+    grid-area: img13;
+    width: 9.3rem;
+  }
+  
+  .img14 {
+    grid-area: img14;
+    width: 9.3rem;
+  }
+  
+  .img15 {
+    grid-area: img15;
+    width: 9.3rem;
+  }
+  
+  .img16 {
+    grid-area: img16;
+    width: 9.3rem;
+  }
+  
+  .img17 {
+    grid-area: img17;
+    width: 9.3rem;
+  }
+  
+  .img18 {
+    grid-area: img18;
+    width: 9.3rem;
+  }
+  
+  .img19 {
+    grid-area: img19;
+    width: 9.3rem;
+  }
+  
+  .img20 {
+    grid-area: img20;
+    width: 9.3rem;
+  }
+  
+  .img21 {
+    grid-area: img21;
+    width: 9.3rem;
+  }
+  
+  .img22 {
+    grid-area: img22;
+    width: 9.3rem;
+  }
+  
+  .imgall {
+    border-radius: 10px;
+  }
+  
+  .imgall:hover {
+    transition: 1000ms ease;
+    transform: scale(1.50);
+  }

@@ -1,0 +1,74 @@
+/* Aqui comienza ANIMACION / POSITION / MEDIA QUERIES */
+  
+.secretlink {
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+    width: 13rem;
+    z-index: 2;
+  }
+  
+  .secret__link .secretlink {
+    animation: appear 3s ease;
+  }
+  
+  @keyframes appear {
+    0% {
+      transform: translateX(-30%);
+      opacity: 0;
+    }
+  
+    50% {
+      rotate: 180deg;
+    }
+  
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  
+  .newalbumpic {
+    position: absolute;
+    top: -3.8rem;
+    right: 1rem;
+    width: 18rem;
+    z-index: 2;
+    animation: moving-album 3s ease;
+  }
+  
+  @keyframes moving-album {
+    0% {
+      transform: translateY(0%) translateX(0%);
+      opacity: 0;
+    }
+  
+    20% {
+      transform: translateY(-10%);
+      opacity: 0.2;
+    }
+  
+    40% {
+      transform: translateX(-10%);
+      opacity: 0.4;
+    }
+  
+    50% {
+      rotate: 30deg;
+    }
+  
+    60% {
+      transform: translateX(10%);
+      opacity: 0.6;
+    }
+  
+    80% {
+      transform: translateY(10%);
+      opacity: 0.8;
+    }
+   
+    100% {
+      transform: translateY(0%) translateX(0%);
+      opacity: 1;
+    }
+  }

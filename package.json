@@ -1,0 +1,20 @@
+{
+  "name": "pagina-web-tom-cardy-(sebastiasn-lopez-lindoro)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebastian-Lopez-Lindoro/Segunda-Pre-Entrega.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebastian-Lopez-Lindoro/Segunda-Pre-Entrega/issues"
+  },
+  "homepage": "https://github.com/Sebastian-Lopez-Lindoro/Segunda-Pre-Entrega#readme"
+}

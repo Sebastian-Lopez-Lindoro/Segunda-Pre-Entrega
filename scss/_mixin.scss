@@ -1,0 +1,21 @@
+@mixin trivia {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@mixin trivia-title {
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px black;
+    color:red ;
+}
+
+@mixin trivia-text {
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0.5px 0.5px blue;
+    color: red;
+
+}

@@ -153,6 +153,7 @@
     text-align: center;
     text-align: center;
     color: $main-color;
+    text-shadow: $special-shadow;
   }
 
   .imgall {
@@ -163,5 +164,73 @@
       transform: scale(1.50);
     }
   }
-  
-  
+
+  .trivia__index {
+    @include trivia;
+
+    .trivia__title--index {    
+      @include trivia-title;
+  }
+    .trivia__text--index {
+      @include trivia-text;
+    }
+  }
+
+  .trivia__media {
+    @include trivia;
+    
+    .trivia__title--media {    
+      @include trivia-title;
+  }
+    .trivia__text--media {
+      @include trivia-text;
+    }
+  }
+
+  .trivia__contact {
+    @include trivia;
+    
+    .trivia__title--contact {    
+      @include trivia-title;
+  }
+    .trivia__text--contact {
+      @include trivia-text;
+    }
+  }
+
+  .trivia__collabs {
+    @include trivia;
+    
+    .trivia__title--collabs {    
+      @include trivia-title;
+  }
+    .trivia__text--collabs {
+      @include trivia-text;
+    }
+  }
+
+  .trivia__bio {
+    @include trivia;
+    
+    .trivia__title--bio {    
+      @include trivia-title;
+  }
+    .trivia__text--bio {
+      @include trivia-text;
+    }
+  }
+
+.trivia__div {
+  display: flex;
+  justify-content: center;
+  .trivia__img{
+    width: 8rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    &:hover {
+      transition: 1000ms ease;
+      transform:rotate(-360deg);
+
+    }
+  }
+}

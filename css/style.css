@@ -576,14 +576,7 @@ nav ul li .nav-link:hover {
     width: 10rem;
   }
 }
-@media (max-width: 500px) {
-  body {
-    min-width: 100vh;
-  }
-  header {
-    min-width: 100vh;
-  }
-}
+
 h4 {
   text-align: center;
 }

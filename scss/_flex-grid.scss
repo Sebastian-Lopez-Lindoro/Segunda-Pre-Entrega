@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     background-image: $main-gradient;
-    width: 25rem;
+    width: 17rem;
     margin: auto;
     padding: 1rem;
     border-radius: 10px;
@@ -33,7 +33,7 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  
+
   /* Container4 Queda reservado para futura idea a implementar */
   
   .container5 {
@@ -57,7 +57,18 @@
     gap: 1rem;
     justify-content: center;
   }
-  
+
+  .container__flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .video__media {
+      padding: 1rem;
+      border-radius: 25px;
+    }
+  }
+
   .img__g1 {
     display: grid;
     grid-template-rows: 1fr 1fr;

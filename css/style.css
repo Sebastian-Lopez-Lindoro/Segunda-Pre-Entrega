@@ -331,7 +331,7 @@ iframe {
   display: flex;
   justify-content: center;
   background-image: linear-gradient(35deg, black, blue, red, red, blue, black);
-  width: 25rem;
+  width: 17rem;
   margin: auto;
   padding: 1rem;
   border-radius: 10px;
@@ -381,6 +381,16 @@ iframe {
   margin: 1rem;
   gap: 1rem;
   justify-content: center;
+}
+
+.container__flex2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container__flex2 .video__media {
+  padding: 1rem;
+  border-radius: 25px;
 }
 
 .img__g1 {
@@ -576,7 +586,6 @@ nav ul li .nav-link:hover {
     width: 10rem;
   }
 }
-
 h4 {
   text-align: center;
 }

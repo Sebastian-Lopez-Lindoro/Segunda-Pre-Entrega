@@ -34,6 +34,11 @@
         color: $secondary-color;
         padding: 3rem;
       }
+
+      .row {
+        padding: 0;
+        margin: 0;
+      }
       
       h1 {
         text-align: center;
@@ -108,7 +113,7 @@
   }
   
   .merch__img {
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 1rem;
 
     .merch__icon {
